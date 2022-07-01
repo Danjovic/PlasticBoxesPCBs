@@ -1,4 +1,4 @@
-# PlasticBoxesPCBs
+# Plastic Boxes PCBs
 PCB libraries for standard plastic boxes
 
 ## Hammond

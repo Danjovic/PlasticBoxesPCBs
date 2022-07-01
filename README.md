@@ -9,4 +9,4 @@ PCB libraries for standard plastic boxes
 ## Patola
 ## Tic Tac
 - Standard
-- Big
+- Large

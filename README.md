@@ -7,15 +7,19 @@ PCB libraries for standard plastic boxes
 - RL6105
 - RM2015M
 ## Patola
-- CP011
-- CR043/0
-- CR060
-- PB107
+- CP011 ( bottom, top )
+- CR043 ( variants /0, /1, /2 )
+- CR060 
+- PB107 ( bottom, top, long side, short side )
 - PB108
+- PB112
 - PB112/2
-- PB114/2
-- PB201
-- PB603
+- PB114 ( 2 options for mounting holes )
+- PB201 ( top ) 
+- PB202 ( top )
+- PB203 ( top )
+- PB603 / PB605 (same footprint, different height )
+- PB900 ( bottom, side )
 ## Tic Tac
 - Standard
 - Large

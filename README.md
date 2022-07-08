@@ -1,12 +1,12 @@
 # Plastic Boxes PCBs
 PCB libraries for standard plastic boxes
 
-## Hammond
+## [Hammond](https://www.hammfg.com/electronics/small-case)
 - 1593J
 - RL6015
 - RL6105
 - RM2015M
-## Patola
+## [Patola](https://www.patola.com.br/)
 ### CP series
 - CP011 ( bottom, top )
 ### CR series
@@ -24,6 +24,6 @@ PCB libraries for standard plastic boxes
 - PB205 ( 4 options of size )
 - PB603 / PB605 (same footprint, different height )
 - PB900 ( bottom, side )
-## Tic Tac
+## [Tic Tac](https://en.wikipedia.org/wiki/Tic_Tac)
 - Standard
 - Large

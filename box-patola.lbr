@@ -14,14 +14,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -32,19 +32,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -54,10 +54,10 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="100" name="details" color="14" fill="3" visible="yes" active="yes"/>
-<layer number="101" name="details2" color="11" fill="10" visible="yes" active="yes"/>
-<layer number="102" name="details3" color="10" fill="8" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="100" name="details" color="14" fill="3" visible="no" active="yes"/>
+<layer number="101" name="details2" color="11" fill="10" visible="no" active="yes"/>
+<layer number="102" name="details3" color="10" fill="8" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -1682,6 +1682,350 @@ Material ABS preto. Medidas: 13 x 30 x 46 mm&lt;br&gt;</description>
 <hole x="28" y="-29.5" drill="3.2"/>
 <hole x="-28" y="-29.5" drill="3.2"/>
 </package>
+<package name="PB205">
+<wire x1="-75" y1="70" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="-75" y1="67" x2="-75" y2="-67" width="0.001" layer="51"/>
+<wire x1="-75" y1="-67" x2="-75" y2="-70" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="1.25" width="0.001" layer="20"/>
+<circle x="-51" y="-35" radius="1.25" width="0.001" layer="20"/>
+<circle x="19" y="-35" radius="1.25" width="0.001" layer="20"/>
+<circle x="19" y="35" radius="1.25" width="0.001" layer="20"/>
+<circle x="-51" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="2.5" width="0.001" layer="51"/>
+<wire x1="71" y1="70" x2="56" y2="70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="-48" y2="70" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-75" y2="70" width="0.001" layer="51"/>
+<wire x1="75" y1="66" x2="71" y2="70" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-70" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="-48" y1="-70" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-70" x2="71" y2="-70" width="0.001" layer="51"/>
+<wire x1="75" y1="-66" x2="75" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-70" x2="75" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="71" y1="67" x2="63.762640625" y2="67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="67" x2="-62.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-68.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="72" y1="66" x2="71" y2="67" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-67" x2="-68.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="-67" x2="71" y2="-67" width="0.001" layer="51"/>
+<wire x1="72" y1="-66" x2="72" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-67" x2="72" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="63.762640625" y1="67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-66" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-67" x2="-63.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-66" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-68.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-67.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="67" x2="-63.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="5" width="0.001" layer="20"/>
+<circle x="41" y="-58.5" radius="5" width="0.001" layer="20"/>
+<circle x="-51" y="58.5" radius="5" width="0.001" layer="20"/>
+<circle x="41" y="58.5" radius="5" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="-53.5" x2="-61.5" y2="-66" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="66" x2="-61.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="36" y1="66" x2="-46" y2="66" width="0.001" layer="20"/>
+<wire x1="-46" y1="-66" x2="36" y2="-66" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="-53.5" x2="-61.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-48" y1="-73" x2="56" y2="-73" width="0.001" layer="51"/>
+<wire x1="-48" y1="-73" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-73" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="56" y2="73" width="0.001" layer="51"/>
+<wire x1="56" y1="73" x2="-48" y2="73" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-48" y2="73" width="0.001" layer="51"/>
+<wire x1="63.5" y1="66" x2="63.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="63.5" y1="-53.5" x2="63.5" y2="-66" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="-66" x2="63.5" y2="-66" width="0.001" layer="20"/>
+<wire x1="63.5" y1="66" x2="-61.5" y2="66" width="0.001" layer="20"/>
+<wire x1="63.5" y1="-53.5" x2="63.5" y2="53.5" width="0.001" layer="20"/>
+<hole x="-51" y="35" drill="2.8"/>
+<hole x="19" y="35" drill="2.8"/>
+<hole x="-51" y="-35" drill="2.8"/>
+<hole x="19" y="-35" drill="2.8"/>
+</package>
+<package name="PB205_ALT1">
+<wire x1="-75" y1="70" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="-75" y1="67" x2="-75" y2="-67" width="0.001" layer="51"/>
+<wire x1="-75" y1="-67" x2="-75" y2="-70" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="1.25" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="1.25" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="2.5" width="0.001" layer="51"/>
+<wire x1="71" y1="70" x2="56" y2="70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="-48" y2="70" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-75" y2="70" width="0.001" layer="51"/>
+<wire x1="75" y1="66" x2="71" y2="70" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-70" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="-48" y1="-70" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-70" x2="71" y2="-70" width="0.001" layer="51"/>
+<wire x1="75" y1="-66" x2="75" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-70" x2="75" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="71" y1="67" x2="63.762640625" y2="67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="67" x2="-62.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-68.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="72" y1="66" x2="71" y2="67" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-67" x2="-68.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="-67" x2="71" y2="-67" width="0.001" layer="51"/>
+<wire x1="72" y1="-66" x2="72" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-67" x2="72" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="63.762640625" y1="67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-66" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-67" x2="-63.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-66" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-68.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-67.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="67" x2="-63.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-51" y1="-53.5" x2="-61.5" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="-51" y1="53.5" x2="-46" y2="58.5" width="0.001" layer="20" curve="90"/>
+<wire x1="36" y1="58.5" x2="41" y2="53.5" width="0.001" layer="20" curve="90"/>
+<wire x1="41" y1="-53.5" x2="36" y2="-58.5" width="0.001" layer="20" curve="90"/>
+<wire x1="-46" y1="-58.5" x2="-51" y2="-53.5" width="0.001" layer="20" curve="90"/>
+<wire x1="-46" y1="-58.5" x2="-46" y2="-66" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="53.5" x2="-51" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-46" y1="58.5" x2="-46" y2="66" width="0.001" layer="20"/>
+<wire x1="36" y1="58.5" x2="36" y2="66" width="0.001" layer="20"/>
+<wire x1="36" y1="66" x2="-46" y2="66" width="0.001" layer="20"/>
+<wire x1="-46" y1="-66" x2="36" y2="-66" width="0.001" layer="20"/>
+<wire x1="36" y1="-58.5" x2="36" y2="-66" width="0.001" layer="20"/>
+<wire x1="51.5" y1="-53.5" x2="41" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="41" y1="53.5" x2="51.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="51.5" y1="53.5" x2="51.5" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="-53.5" x2="-61.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-48" y1="-73" x2="56" y2="-73" width="0.001" layer="51"/>
+<wire x1="-48" y1="-73" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-73" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="56" y2="73" width="0.001" layer="51"/>
+<wire x1="56" y1="73" x2="-48" y2="73" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-48" y2="73" width="0.001" layer="51"/>
+<hole x="-51" y="35" drill="2.8"/>
+<hole x="19" y="35" drill="2.8"/>
+<hole x="19" y="-35" drill="2.8"/>
+<hole x="-51" y="-35" drill="2.8"/>
+</package>
+<package name="PB205_ALT2">
+<wire x1="-75" y1="70" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="-75" y1="67" x2="-75" y2="-67" width="0.001" layer="51"/>
+<wire x1="-75" y1="-67" x2="-75" y2="-70" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="1.25" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="1.25" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="2.5" width="0.001" layer="51"/>
+<wire x1="71" y1="70" x2="56" y2="70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="-48" y2="70" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-75" y2="70" width="0.001" layer="51"/>
+<wire x1="75" y1="66" x2="71" y2="70" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-70" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="-48" y1="-70" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-70" x2="71" y2="-70" width="0.001" layer="51"/>
+<wire x1="75" y1="-66" x2="75" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-70" x2="75" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="71" y1="67" x2="63.762640625" y2="67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="67" x2="-62.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-68.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="72" y1="66" x2="71" y2="67" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-67" x2="-68.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="-67" x2="71" y2="-67" width="0.001" layer="51"/>
+<wire x1="72" y1="-66" x2="72" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-67" x2="72" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="63.762640625" y1="67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-66" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-67" x2="-63.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-66" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-68.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-67.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="67" x2="-63.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-51" y1="-53.5" x2="-61.5" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="-51" y1="53.5" x2="-46" y2="58.5" width="0.001" layer="20" curve="90"/>
+<wire x1="36" y1="58.5" x2="41" y2="53.5" width="0.001" layer="20" curve="90"/>
+<wire x1="41" y1="-53.5" x2="36" y2="-58.5" width="0.001" layer="20" curve="90"/>
+<wire x1="-46" y1="-58.5" x2="-51" y2="-53.5" width="0.001" layer="20" curve="90"/>
+<wire x1="-46" y1="-58.5" x2="-46" y2="-66" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="53.5" x2="-51" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-46" y1="58.5" x2="-46" y2="66" width="0.001" layer="20"/>
+<wire x1="36" y1="58.5" x2="36" y2="66" width="0.001" layer="20"/>
+<wire x1="36" y1="66" x2="-46" y2="66" width="0.001" layer="20"/>
+<wire x1="-46" y1="-66" x2="36" y2="-66" width="0.001" layer="20"/>
+<wire x1="36" y1="-58.5" x2="36" y2="-66" width="0.001" layer="20"/>
+<wire x1="51.5" y1="-53.5" x2="41" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="41" y1="53.5" x2="51.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="-53.5" x2="-61.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-48" y1="-73" x2="56" y2="-73" width="0.001" layer="51"/>
+<wire x1="-48" y1="-73" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-73" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="56" y2="73" width="0.001" layer="51"/>
+<wire x1="56" y1="73" x2="-48" y2="73" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-48" y2="73" width="0.001" layer="51"/>
+<wire x1="51.5" y1="53.5" x2="63.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="63.5" y1="-53.5" x2="63.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="63.5" y1="-53.5" x2="51.5" y2="-53.5" width="0.001" layer="20"/>
+<hole x="-51" y="35" drill="2.8"/>
+<hole x="19" y="35" drill="2.8"/>
+<hole x="19" y="-35" drill="2.8"/>
+<hole x="-51" y="-35" drill="2.8"/>
+</package>
+<package name="PB205_ALT3">
+<wire x1="-75" y1="70" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="-75" y1="67" x2="-75" y2="-67" width="0.001" layer="51"/>
+<wire x1="-75" y1="-67" x2="-75" y2="-70" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="1.25" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="1.25" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="1.25" width="0.001" layer="51"/>
+<circle x="-51" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="58.5" radius="4" width="0.001" layer="51"/>
+<circle x="41" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-58.5" radius="4" width="0.001" layer="51"/>
+<circle x="-51" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="-35" radius="2.5" width="0.001" layer="51"/>
+<circle x="-51" y="35" radius="2.5" width="0.001" layer="51"/>
+<circle x="19" y="35" radius="2.5" width="0.001" layer="51"/>
+<wire x1="71" y1="70" x2="56" y2="70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="-48" y2="70" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-75" y2="70" width="0.001" layer="51"/>
+<wire x1="75" y1="66" x2="71" y2="70" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-70" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="-48" y1="-70" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-70" x2="71" y2="-70" width="0.001" layer="51"/>
+<wire x1="75" y1="-66" x2="75" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-70" x2="75" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="71" y1="67" x2="63.762640625" y2="67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="67" x2="-62.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-68.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-75" y2="67" width="0.001" layer="51"/>
+<wire x1="72" y1="66" x2="71" y2="67" width="0.001" layer="51" curve="90"/>
+<wire x1="-75" y1="-67" x2="-68.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="63.762640625" y1="-67" x2="71" y2="-67" width="0.001" layer="51"/>
+<wire x1="72" y1="-66" x2="72" y2="66" width="0.001" layer="51"/>
+<wire x1="71" y1="-67" x2="72" y2="-66" width="0.001" layer="51" curve="90"/>
+<wire x1="63.762640625" y1="67" x2="63.762640625" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-67" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="-66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-66" x2="-67.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="-67" x2="-63.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-67" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="-66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="-66" x2="-62.5" y2="-67" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="67" x2="-68.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-67.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="67" x2="-63.5" y2="67" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="67" x2="-63.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="67" x2="-62.5" y2="66" width="0.001" layer="51"/>
+<wire x1="-68.5" y1="66" x2="-68.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-67.5" y1="66" x2="-67.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-63.5" y1="66" x2="-63.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-62.5" y1="66" x2="-62.5" y2="-66" width="0.001" layer="51"/>
+<wire x1="-51" y1="-53.5" x2="-61.5" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="53.5" x2="-51" y2="53.5" width="0.001" layer="20"/>
+<wire x1="51.5" y1="-53.5" x2="41" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="41" y1="53.5" x2="51.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-51" y1="53.5" x2="41" y2="53.5" width="0.001" layer="20"/>
+<wire x1="51.5" y1="53.5" x2="51.5" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="41" y1="-53.5" x2="-51" y2="-53.5" width="0.001" layer="20"/>
+<wire x1="-61.5" y1="-53.5" x2="-61.5" y2="53.5" width="0.001" layer="20"/>
+<wire x1="-48" y1="-73" x2="56" y2="-73" width="0.001" layer="51"/>
+<wire x1="-48" y1="-73" x2="-48" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="-73" x2="56" y2="-70" width="0.001" layer="51"/>
+<wire x1="56" y1="70" x2="56" y2="73" width="0.001" layer="51"/>
+<wire x1="56" y1="73" x2="-48" y2="73" width="0.001" layer="51"/>
+<wire x1="-48" y1="70" x2="-48" y2="73" width="0.001" layer="51"/>
+<hole x="-51" y="35" drill="2.8"/>
+<hole x="19" y="35" drill="2.8"/>
+<hole x="19" y="-35" drill="2.8"/>
+<hole x="-51" y="-35" drill="2.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PATOLA">
@@ -1738,118 +2082,162 @@ Material ABS preto. Medidas: 13 x 30 x 46 mm&lt;br&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PATOLA-">
-<description>Patola PB603 box</description>
+<deviceset name="PB-">
+<description>&lt;B&gt;PATOLA&lt;/B&gt; PB series plastic boxes &lt;br&gt;
+www.patola.com.br</description>
 <gates>
 <gate name="G$1" symbol="PATOLA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PB603" package="PB603">
+<device name="107_BOTTOM" package="PB107-BOTTOM">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB108" package="PB108">
+<device name="107_VERTICAL_LONG" package="PB107-VERT-LONG">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CP-011_BOTTOM" package="CP-011">
+<device name="107_TOP" package="PB107-TOP">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CR060" package="CR-060">
+<device name="107-VERT_SHORT" package="PB-107-VERT-SHORT">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CR-043/0" package="CR043/0">
+<device name="108" package="PB108">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB107" package="PB107-BOTTOM">
+<device name="112" package="PB112">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB112/2" package="PB112/2">
+<device name="112/2" package="PB112/2">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB114_BOTTOM_1" package="PB114_BOTTOM1">
+<device name="114_BOTTOM_HOLES_1" package="PB114_BOTTOM1">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB201-TOP" package="PB201_TOP">
+<device name="114_BOTTOM_HOLES_2" package="PB114_BOTTOM2">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB900" package="PB900">
+<device name="201_TOP" package="PB201_TOP">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB900-SIDE" package="PB900-SIDE">
+<device name="202_TOP" package="PB202-TOP">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CP-011_TOP" package="CP011_ALT">
+<device name="203_TOP" package="PB203-TOP">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CR-043/1" package="CR043/1">
+<device name="603" package="PB603">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CR-043/2" package="CR043/2">
+<device name="605" package="PB605">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB-107_TOP" package="PB107-TOP">
+<device name="900_BOTTOM" package="PB900">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB107_VERT_LONG" package="PB107-VERT-LONG">
+<device name="900_SIDE" package="PB900-SIDE">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB107_VERT-SHORT" package="PB-107-VERT-SHORT">
+<device name="205" package="PB205">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB112" package="PB112">
+<device name="205_ALT1" package="PB205_ALT1">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB605" package="PB605">
+<device name="205_ALT2" package="PB205_ALT2">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB202_TOP" package="PB202-TOP">
+<device name="205_ALT3" package="PB205_ALT3">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB203_TOP" package="PB203-TOP">
+</devices>
+</deviceset>
+<deviceset name="CP-">
+<description>PATOLA &lt;b&gt; CP series &lt;/B&gt; plastic boxes &lt;br&gt;
+www.patola.com.br</description>
+<gates>
+<gate name="G$1" symbol="PATOLA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="011" package="CP-011">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="PB114_BOTTOM2" package="PB114_BOTTOM2">
+<device name="011_ALTERNATIVE" package="CP-011">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CR-">
+<description>PATOLA CR series plastic boxes 
+www.patola.com.br</description>
+<gates>
+<gate name="G$1" symbol="PATOLA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="043/0" package="CR043/0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="043/1" package="CR043/1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="043/2" package="CR043/2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="060" package="CR-060">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="060/2" package="CP-011">
 <technologies>
 <technology name=""/>
 </technologies>

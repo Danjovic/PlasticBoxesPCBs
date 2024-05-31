@@ -25,6 +25,8 @@ PCB libraries for standard plastic boxes
 - PB203 ( top )
 - PB205 ( 4 options of size )
 - PB207
+- PB220 (4 options of size )
+- PB600 (4 options of size plus faceplate)
 - PB603 / PB605 (same footprint, different height )
 - PB900 ( bottom, side )
 ## [Tic Tac](https://en.wikipedia.org/wiki/Tic_Tac)

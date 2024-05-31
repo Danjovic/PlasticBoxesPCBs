@@ -20,6 +20,7 @@ PCB libraries for standard plastic boxes
 - PB112
 - PB112/2
 - PB114 ( 2 options for mounting holes )
+- PB150
 - PB201 ( top ) 
 - PB202 ( top )
 - PB203 ( top )

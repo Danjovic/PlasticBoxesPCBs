@@ -27,6 +27,7 @@ PCB libraries for standard plastic boxes
 - PB205 ( 4 options of size )
 - PB207
 - PB209
+- PB211 (bottom, top )
 - PB220 (4 options of size )
 - PB600 (4 options of size plus faceplate)
 - PB603 / PB605 (same footprint, different height )

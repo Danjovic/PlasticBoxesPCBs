@@ -11,8 +11,10 @@ PCB libraries for standard plastic boxes
 - CP011 ( bottom, top )
 ### CR series
 - CR043 ( variants /0, /1, /2 )
-- CR060 
+- CR060
+- CR096 ( variants /0, /1, /2 )
 ### PB series
+- PB008
 - PB049
 - PB087 ( straight and slotted board edges )
 - PB107 ( bottom, top, long side, short side )

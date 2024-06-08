@@ -16,7 +16,7 @@ PCB libraries for standard plastic boxes
 ### PB series
 - PB008
 - PB049
-- PB087 ( straight and slotted board edges )
+- PB087
 - PB107 ( bottom, top, long side, short side )
 - PB108
 - PB112

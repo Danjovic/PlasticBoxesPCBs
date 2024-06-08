@@ -4008,6 +4008,46 @@ Material ABS preto. Medidas: 14 x 45 x 45 mm</description>
 <wire x1="-45.5" y1="32.5" x2="45.5" y2="32.5" width="0" layer="20"/>
 <wire x1="45.5" y1="-32.5" x2="45.5" y2="32.5" width="0" layer="20"/>
 </package>
+<package name="PB-049_ALT">
+<description>&lt;b&gt;PB-049&lt;/b&gt; Caixa plástica com acabamento fosco, fechamento por parafusos.&lt;br&gt; 
+Material ABS preto. Medidas: 14 x 45 x 45 mm</description>
+<wire x1="-18.75" y1="20.75" x2="-20.75" y2="18.75" width="0.001" layer="51" curve="90"/>
+<wire x1="22.5" y1="19" x2="19" y2="22.5" width="0.001" layer="51" curve="90"/>
+<wire x1="-19" y1="22.5" x2="-22.5" y2="19" width="0.001" layer="51" curve="90"/>
+<wire x1="-22.5" y1="-19" x2="-22.5" y2="19" width="0.001" layer="51"/>
+<wire x1="-22.5" y1="-19" x2="-19" y2="-22.5" width="0.001" layer="51" curve="90"/>
+<wire x1="22.5" y1="-19" x2="22.5" y2="19" width="0.001" layer="51"/>
+<wire x1="-19" y1="-22.5" x2="19" y2="-22.5" width="0.001" layer="51"/>
+<wire x1="19" y1="-22.5" x2="22.5" y2="-19" width="0.001" layer="51" curve="90"/>
+<wire x1="-20.75" y1="-18.75" x2="-20.75" y2="18.75" width="0.001" layer="51"/>
+<wire x1="-20.75" y1="-18.75" x2="-18.75" y2="-20.75" width="0.001" layer="51" curve="90"/>
+<wire x1="-18.75" y1="-20.75" x2="18.75" y2="-20.75" width="0.001" layer="51"/>
+<wire x1="18.75" y1="-20.75" x2="20.75" y2="-18.75" width="0.001" layer="51" curve="90"/>
+<wire x1="-18.75" y1="20.75" x2="18.75" y2="20.75" width="0.001" layer="51"/>
+<wire x1="20.75" y1="-18.75" x2="20.75" y2="18.75" width="0.001" layer="51"/>
+<wire x1="20.75" y1="18.75" x2="18.75" y2="20.75" width="0.001" layer="51" curve="90"/>
+<wire x1="-19" y1="22.5" x2="19" y2="22.5" width="0.001" layer="51"/>
+<circle x="-18.75" y="-18.75" radius="1.5" width="0.001" layer="51"/>
+<circle x="18.75" y="18.75" radius="1.5" width="0.001" layer="51"/>
+<wire x1="-17.25" y1="20.55" x2="17.25" y2="20.55" width="0" layer="20"/>
+<wire x1="-20.55" y1="-17.25" x2="-20.55" y2="17.25" width="0" layer="20"/>
+<wire x1="-17.25" y1="-20.55" x2="17.25" y2="-20.55" width="0" layer="20"/>
+<wire x1="20.55" y1="-17.25" x2="20.55" y2="17.25" width="0" layer="20"/>
+<wire x1="-20.08723125" y1="18.93526875" x2="-18.93526875" y2="20.08723125" width="0" layer="20" curve="285.775835"/>
+<wire x1="18.454240625" y1="20.32243125" x2="17.25" y2="20.550003125" width="0" layer="20" curve="21.402716"/>
+<wire x1="20.55" y1="17.25" x2="20.322428125" y2="18.4542375" width="0" layer="20" curve="21.402685"/>
+<wire x1="18.454240625" y1="20.32243125" x2="20.32243125" y2="18.454240625" width="0" layer="20" curve="248.695329"/>
+<wire x1="-17.25" y1="20.55" x2="-18.93526875" y2="20.08723125" width="0" layer="20" curve="30.709616"/>
+<wire x1="-20.08723125" y1="18.93526875" x2="-20.550003125" y2="17.25" width="0" layer="20" curve="30.709616"/>
+<wire x1="-20.55" y1="-17.25" x2="-20.322428125" y2="-18.4542375" width="0" layer="20" curve="21.402685"/>
+<wire x1="-18.454240625" y1="-20.32243125" x2="-17.25" y2="-20.550003125" width="0" layer="20" curve="21.402716"/>
+<wire x1="-18.454240625" y1="-20.32243125" x2="-20.32243125" y2="-18.454240625" width="0" layer="20" curve="248.695329"/>
+<wire x1="20.08723125" y1="-18.93526875" x2="20.550003125" y2="-17.25" width="0" layer="20" curve="30.709616"/>
+<wire x1="20.08723125" y1="-18.93526875" x2="18.93526875" y2="-20.08723125" width="0" layer="20" curve="285.775835"/>
+<wire x1="17.25" y1="-20.55" x2="18.93526875" y2="-20.08723125" width="0" layer="20" curve="30.709616"/>
+<circle x="-18.75" y="18.75" radius="1.25" width="0.001" layer="51"/>
+<circle x="18.75" y="-18.75" radius="1.25" width="0.001" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PATOLA">
@@ -4251,6 +4291,11 @@ www.patola.com.br</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="049_ALT" package="PB-049_ALT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CP-">
@@ -4265,7 +4310,7 @@ www.patola.com.br</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="011_ALTERNATIVE" package="CP-011">
+<device name="011_ALTERNATIVE" package="CP011_ALT">
 <technologies>
 <technology name=""/>
 </technologies>

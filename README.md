@@ -15,9 +15,9 @@ PCB libraries for standard plastic boxes
 - CR096 ( variants /0, /1, /2 )
 ### PB series
 - PB008
-- PB048
-- PB049 ( 2 options )
-- PB087
+- PB048 (3D)
+- PB049 ( 2 options ) (3D)
+- PB087  (3D)
 - PB107 ( bottom, top, long side, short side )
 - PB108
 - PB112
@@ -32,8 +32,9 @@ PCB libraries for standard plastic boxes
 - PB209
 - PB211 (bottom, top )
 - PB220 (4 options of size )
-- PB600 (4 options of size plus faceplate)
-- PB603 / PB605 (same footprint, different height )
+- PB600 (4 options of size plus faceplate)  (3D)
+- PB603 (3D)
+- PB605 (same footprint as PB603, different height )  
 - PB900 ( bottom, side )
 ## [Tic Tac](https://en.wikipedia.org/wiki/Tic_Tac)
 - Standard

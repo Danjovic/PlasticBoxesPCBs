@@ -1,5 +1,5 @@
 # Plastic Boxes PCBs
-PCB libraries for standard plastic boxes
+PCB libraries for standard plastic boxes (in Eagle format) and some 3d cases (in .STEP format).
 
 ## [Hammond](https://www.hammfg.com/electronics/small-case)
 - 1593J

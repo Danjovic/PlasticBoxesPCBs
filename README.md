@@ -17,6 +17,8 @@ PCB libraries for standard plastic boxes (in Eagle format) and some 3d cases (in
 - PB008
 - PB048 (3D)
 - PB049 ( 2 options ) (3D)
+- PB080 (3D)
+- PB085/3 (3D)
 - PB087  (3D)
 - PB107 ( bottom, top, long side, short side )
 - PB108

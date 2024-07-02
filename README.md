@@ -14,7 +14,7 @@ PCB libraries for standard plastic boxes (in Eagle format) and some 3d cases (in
 - CR060
 - CR096 ( variants /0, /1, /2 )
 ### PB series
-- PB008
+- PB008 (3D)
 - PB048 (3D)
 - PB049 ( 2 options ) (3D)
 - PB080 (3D)

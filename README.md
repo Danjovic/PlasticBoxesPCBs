@@ -9,6 +9,7 @@ PCB libraries for standard plastic boxes (in Eagle format) and some 3d cases (in
 ## [Patola](https://www.patola.com.br/)
 ### CP series
 - CP011 ( bottom, top ) (3D)
+- CP013 ( upper, lower) (3D)
 ### CR series
 - CR043 ( variants /0, /1, /2 )
 - CR060

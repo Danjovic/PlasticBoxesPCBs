@@ -36,7 +36,8 @@ PCB libraries for standard plastic boxes (in Eagle format) and some 3d cases (in
 - PB209
 - PB211 (bottom, top )
 - PB220 (4 options of size )
-- PB600 (4 options of size plus faceplate)  (3D)
+- PB600 (3D)
+- PB600/2 (4 options of size plus faceplate)  (3D)
 - PB603 (3D)
 - PB605 (same footprint as PB603, different height )  
 - PB900 ( bottom, side )
